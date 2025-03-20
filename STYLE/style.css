@@ -218,18 +218,19 @@ font-size: 17px;
 #item_1{
   border: 1px solid #808080;
   border-radius: 20px;
-  width: 40%;
+  width: 49%;
 }
 #item_inner{
   display: flex;
     background: #fff9e9;
     border-radius: 20px;
-    padding: 10px;
+    padding-bottom: 57px;
 margin: 15px;
 }
 #item_box{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 10px;
  
 }
 #item_inner2{
@@ -237,5 +238,143 @@ margin: 15px;
     background: #fff9e9;
     border-radius: 20px;
     padding-bottom: 60px;
-margin: 15px; 
+    margin: 15px; 
+}
+
+#item_img img{
+  max-width: 50%;
+}
+#item_price{
+  color: #d33c0a;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 60px;
+  font-weight: bold;
+  font-size: 17px;
+}
+#item_nam h1{
+  font-family: 'Roboto', sans-serif;
+  padding-top: 50px;
+  font-size: 30px;
+  font-weight: 5px;
+}
+#site-butn {
+  background-color: #d33c0a;
+    font-size: 12px;
+    padding: 25px 30px;
+    border-radius: 4px;
+    color: #fff;
+    border-style: none;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+#banner_6{
+  background-image: url(https://fahrenheithalal.com/wp-content/uploads/2022/07/HMS-LOGO-980x980.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+ width: 35%;
+  margin-top: 80px;
+}
+
+#inner_6{
+  background-color: #fff9e9;
+}
+#commu-main {
+  margin-top: 75px;
+}
+#comm-inn-text {
+  text-align: center;
+  margin-bottom: 75px;
+  text-transform: capitalize;
+  color: #000;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+#comm-inn-img {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+#comm-img {
+  width: 30%;
+}
+#logo-bg-ftr {
+  background: #222222 !important;
+  text-align: center;
+}
+#logo-main {
+  margin-bottom: 100px;
+  padding-top: 35px;
+}
+#text-inn-logo {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 70px;
+}
+#text-left-logo {
+  flex-basis: 30%;
+}
+#text-middle-logo {
+  flex-basis: 30%;
+}
+#text-right-logo {
+  flex-basis: 30%;
+}
+#text-left-logo h1 {
+  color: #ffffff;
+  text-align: left;
+  padding-bottom: 50px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+#text-left-logo p {
+  font-weight: bold;
+  font-style: normal;
+  color: #ffffff;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+}
+#text-area-logo {
+  width: 30%;
+}
+#text-middle-logo h1 {
+  color: #ffffff;
+  text-align: justify;
+  padding-bottom: 50px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+#text-middle-logo p {
+  color: #ffffff;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+#text-right-logo p {
+  color: #ffffff;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin-top: 5px;
+}
+#text-right-logo h1 {
+  color: #ffffff;
+  text-align: justify;
+  padding-bottom: 50px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+#footer-bg {
+  background-color: #d33c0a;
+  opacity: 1;
+  background-image: radial-gradient(#f5bd6f 0.5px, #d33c0a 0.5px);
+  background-size: 10px 10px;
+}
+#bottom-main {
+  color: #ffffff;
+  text-align: justify;
+  text-align: left;
+  padding: 30px 0px;
+  font-family: 'Roboto', sans-serif;
 }
