@@ -216,7 +216,7 @@ font-size: 17px;
   margin-bottom: 50px;
 }
 #item_1{
-  border: 1px solid #808080;
+  border: 1px solid #ececec;
   border-radius: 20px;
   width: 49%;
 }
@@ -226,6 +226,7 @@ font-size: 17px;
     border-radius: 20px;
     padding-bottom: 57px;
 margin: 15px;
+
 }
 #item_box{
   display: flex;
@@ -267,17 +268,67 @@ margin: 15px;
     font-family: 'Roboto', sans-serif;
     margin-left: 500px;
     margin-top: 50px;
+   
 }
-#banner_6{
-  background-image: url(https://fahrenheithalal.com/wp-content/uploads/2022/07/HMS-LOGO-980x980.png);
-  background-repeat: no-repeat;
-  background-size: cover;
- width: 35%;
-  margin-top: 80px;
+#site-butn2{
+ 
+ margin-right: 350px;
+  margin-top: 100px;
+}
+#site-butn2 a{
+  background-color: #d33c0a;
+  font-size: 17px;
+  padding: 25px 30px;
+  border-radius: 4px;
+  color: #fff;
+  border-style: none;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
 }
 
+
+#banner_6{
+  background-image: url(../IMAGE/1ff01d24-23d7-4cb1-8b19-100eddf7c24b.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+ padding: 200px;
+ 
+ 
+}
+
+#section_6{
+  margin-top: 100px;
+}
 #inner_6{
   background-color: #fff9e9;
+  display: flex;
+  
+}
+#certified{
+  color: #d33c0a;
+    font-family: "Norican", Sans-serif !important;
+    font-size: 25px;
+    
+}
+#all_meat{
+  font-size: 25px;
+  margin-top: 50px;
+  font-family: 'Roboto', sans-serif;
+}
+#Fahrenheit_subject p{
+  color: #7a7a7a;
+    font-size: 16px;
+    margin-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    width: 90%;
+
+}
+#right_6{
+  width: 100%;
+  margin-left: 300px;
+  margin-top: 80px;
 }
 #commu-main {
   margin-top: 75px;
@@ -304,7 +355,8 @@ margin: 15px;
 }
 #logo-main {
   margin-bottom: 100px;
-  padding-top: 35px;
+  padding-top: 35px; 
+
 }
 #text-inn-logo {
   display: flex;
@@ -377,4 +429,10 @@ margin: 15px;
   text-align: left;
   padding: 30px 0px;
   font-family: 'Roboto', sans-serif;
+}
+@media screen and (max-width: 600px){
+
+  #top-header-bg{
+    background-color: #808080;
+  }
 }
