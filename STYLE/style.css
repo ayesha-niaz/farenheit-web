@@ -89,12 +89,32 @@ img {
   justify-content: space-between;
 
 }
-
+@media screen and (max-width: 480px) {
+  #inner_2 {
+ display: flex;
+ flex-direction: column;
+ margin-top: 50px;
+ margin-left: 100px;
+ 
+  }
+}
 #img_1 {
   width: 30%;
   margin-top: -50px;
 }
-
+@media screen and (max-width: 768px) {
+  #img_1 {
+ width: 50%;
+ margin-bottom: 60px;
+ 
+  }
+}
+@media screen and (max-width: 768px) {
+  #img_1 img {
+ max-width: 150%;
+ border-radius: 15px;
+  }
+}
 #bg-site {
   background-image: url("../IMAGE/WhatsApp-Image-2022-07-21-at-10.06.48-PM.jpeg");
   background-repeat: no-repeat;
@@ -102,7 +122,12 @@ img {
   padding: 50px 0;
   margin-top: 80px;
 }
-
+@media screen and (max-width: 768px) {
+  #site-right {
+ max-width: 40%;
+ 
+  }
+}
 #main-site {
   display: flex;
   flex-basis: 47%
@@ -115,8 +140,13 @@ img {
   font-family: "Sofia", Sans-serif;
   margin-bottom: 40px;
 }
-
-div#bg-burgar {
+@media screen and (max-width: 768px) {
+  #text-er-1 h1 {
+ font-size:25px ;
+ 
+  }
+}
+#div#bg-burgar {
   padding-bottom: 50px;
 }
 
@@ -133,7 +163,12 @@ div#bg-burgar {
   margin-bottom: 50px;
   width: 81%;
 }
-
+@media screen and (max-width: 768px) {
+  #text-er-2 h2{
+ font-size:30px ;
+ line-height: 40px;
+  }
+}
 #site-butn {
   background-color: #d33c0a;
   border-radius: 4px;
@@ -141,11 +176,7 @@ div#bg-burgar {
   text-align: center;
   padding: 15px 3px;
 }
-@media screen and (max-width: 768px) {
-  #site-butn {
- 
-  }
-}
+
 
 
 #site-butn a {
@@ -188,6 +219,18 @@ div#bg-burgar {
 #pop_dishes {
   display: flex;
 }
+@media screen and (max-width: 768px) {
+  #pop_dishes{
+  margin-left: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #pop_dishes h1 {
+   text-align: center;
+    margin-bottom: 20px;
+    font-size: 35px;
+  }
+}
 
 #section_4 {
   margin-top: 70px;
@@ -201,12 +244,27 @@ div#bg-burgar {
   width: 22%;
 
 }
-
+@media screen and (max-width: 768px) {
+  #items {
+    width: 70%;
+    margin-bottom: 10px;
+    height: 450px;
+  }
+}
 #item_sec {
   display: flex;
   justify-content: space-between;
 }
-
+@media screen and (max-width: 768px) {
+  #item_sec {
+    display: flex;
+    flex-direction: column;
+    margin-left: 90px;
+   
+ 
+    
+  }
+}
 #item_text h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
@@ -242,22 +300,29 @@ div#bg-burgar {
 
 }
 @media screen and (max-width: 768px) {
-  #items_nam ul {
+  #items_nam ul{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 50px;
-  
-
+   
+ 
+    
   }
 }
-
 
 
 #items_nam ul li {
   border: 1px solid #808080;
   padding: 8px;
   border-radius: 22px;
+}
+@media screen and (max-width: 768px) {
+  #items_nam ul li {
+   padding: 10px;
+    width: 40%;
+    margin-left: 150px;
+    margin-bottom: 10px;
+  }
 }
 
 #items_nam ul li h1 a {
@@ -273,7 +338,11 @@ div#bg-burgar {
 #section_5 {
   margin-top: 200px;
 }
-
+@media screen and (max-width: 768px) {
+  #section_5 {
+  margin-top: 80px;
+  }
+}
 #menu {
   margin-bottom: 50px;
 }
@@ -283,6 +352,15 @@ div#bg-burgar {
   border-radius: 20px;
   width: 49%;
 }
+@media screen and (max-width: 768px) {
+  #item_1 {
+   width: 80%;
+  margin-left: 40px;
+
+  }
+}
+
+
 
 #item_inner {
   display: flex;
@@ -305,7 +383,7 @@ div#bg-burgar {
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 10px;
-  
+ 
 
   }
 }
@@ -322,6 +400,12 @@ div#bg-burgar {
 
 #item_img img {
   max-width: 50%;
+}
+@media screen and (max-width: 768px) {
+  #item_img img {
+
+ max-width:150% ;
+  }
 }
 
 #item_price {
@@ -351,12 +435,7 @@ div#bg-burgar {
   margin-top: 50px;
 
 }
-@media screen and (max-width: 768px) {
-  #site-butn {
-  
-   
-  }
-}
+
 
 #site-butn2 {
 
@@ -378,22 +457,30 @@ div#bg-burgar {
 
 
 #banner_6 {
+ 
   background-image: url(../IMAGE/1ff01d24-23d7-4cb1-8b19-100eddf7c24b.jfif);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 200px;
+ padding: 200px;
 
-
+}
+@media screen and (max-width: 768px) {
+  #banner_6  {
+   padding: 100px;
+ 
+  }
 }
 
 #section_6 {
   margin-top: 100px;
+  
+ 
 }
 
 #inner_6 {
-  background-color: #fff9e9;
+ 
   display: flex;
-
+  background-color: #fff9e9;
 }
 
 #certified {
@@ -402,13 +489,21 @@ div#bg-burgar {
   font-size: 25px;
 
 }
-
+@media screen and (max-width: 768px) {
+  #certified  {
+ font-size: 15px;
+  }
+}
 #all_meat {
   font-size: 25px;
   margin-top: 50px;
   font-family: 'Roboto', sans-serif;
 }
-
+@media screen and (max-width: 768px) {
+  #all_meat  {
+ font-size: 15px;
+  }
+}
 #Fahrenheit_subject p {
   color: #7a7a7a;
   font-size: 16px;
@@ -418,13 +513,23 @@ div#bg-burgar {
   width: 90%;
 
 }
-
+@media screen and (max-width: 768px) {
+  #all_meat  {
+ font-size: 12px;
+  }
+}
 #right_6 {
   width: 100%;
   margin-left: 300px;
   margin-top: 80px;
 }
-
+@media screen and (max-width: 768px) {
+  #right_6  {
+  width: 50%;
+ 
+ 
+  }
+}
 
 
 
@@ -450,7 +555,7 @@ div#bg-burgar {
     margin-bottom: 75px;
     text-transform: capitalize;
     color: #000;
-    font-size: 10px;
+    font-size: 15px;
     font-family: 'Roboto', sans-serif;
 
   }
